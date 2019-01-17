@@ -16,7 +16,7 @@ bot.commands = new Discord.Collection();
 bot.on("ready", async () => {
   console.log("Ready!")
   
-  bot.user.setActivity("My prefix /.", {type: "STREAMING"});
+  bot.user.setActivity("My prefix -.", {type: "STREAMING"});
 });
 
 fs.readdir("./commands/", (err, files) => {
