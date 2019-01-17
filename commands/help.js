@@ -7,9 +7,9 @@ module.exports.run = async (bot, message, args) => {
    .setAuthor("Help commands!", message.author.avatarURL)
    .setColor("GREEN")
    .setTimestamp()
-   .addField("mod help", "Shows help for moderators!")
-   .addField("general help", "Shows commands for everyone.")
-   .addField("owner help", "Shows help to 3 people only!")
+   .addField("mhelp", "Shows help for moderators!")
+   .addField("ghelp", "Shows commands for everyone.")
+   .addField("ohelp", "Shows help to 3 people only!")
    .setFooter(message.author.username + " requested this help.");
    
    message.channel.send(embed)
