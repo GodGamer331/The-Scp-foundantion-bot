@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
    .addField("mod help", "Shows help for moderators!")
    .addField("general help", "Shows commands for everyone.")
    .addField("owner help", "Shows help to 3 people only!")
-   .setFooter(message.author.name + " requested this help.");
+   .setFooter(message.author.username + " requested this help.");
    
    message.channel.send(embed)
 }
