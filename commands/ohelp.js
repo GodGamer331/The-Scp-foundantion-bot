@@ -1,6 +1,6 @@
 const Botconfig = require("../botconfig.json");
 const Discord = require("discord.js");
-//const ms = require("ms")
+//const ms = require("ms") // lol
 
 module.exports.run = async (bot, message, args) => {
    let oRole = message.guild.roles.find("name", "dev")
