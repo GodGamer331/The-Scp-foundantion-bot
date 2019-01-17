@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
    var embed = new Discord.RichEmbed()
    .setAuthor("Help commands!", message.author.avatarURL)
    .setColor("GREEN")
-   .setTimestanp()
+   .setTimestamp()
    .addField("mod help", "Shows help for moderators!")
    .addField("general help", "Shows commands for everyone.")
    .addField("owner help", "Shows help to 3 people only!")
