@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 //const ms = require("ms")
 
 module.exports.run = async (bot, message, args) => {
-   var embed = new Discord.Embed()
+   var embed = new Discord.RichEmbed()
    .setAuthor("Help commands!", message.author.avatarURL)
    .setColor("GREEN")
    .setTimestanp()
